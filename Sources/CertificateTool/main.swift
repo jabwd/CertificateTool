@@ -21,6 +21,8 @@ nYnQFUo46X7qG+ans+NZYQjAy5dzzLzS6P7Lyt57fJM7CN1HZDdHXTsWyw==
 """
 
 OPENSSL_add_all_algorithms_conf()
+OPENSSL_init()
+
 SSL_load_error_strings()
 ERR_load_ERR_strings()
 
